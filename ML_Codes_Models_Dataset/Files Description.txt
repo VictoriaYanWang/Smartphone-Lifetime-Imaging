@@ -1,0 +1,11 @@
+1. Dataset: The dataset used to develop and evaluate the CNN model. We have 2 classes with a balanced number of images; each class includes 3200 images.
+
+2. Train_CNN.ipynb: The Python code written to develop and evaluate the CNN model.
+
+3. User_Friendly.ipynb: The Python code that enables user to apply the developed CNN model on the unseen images. This code classifies unseen images into two categories and stores them into 2 different subdirectories based on the predicted labels.
+
+4. model_T.h5: The CNN model trained using the training set, which was subsequently applied on the validation set.
+
+5. model_TV.h5: The CNN model trained using both training and validation sets, which was subsequently applied on the test set.
+
+6. model_TVT.h5: The CNN model trained using the whole data set, which was subsequently applied to automatically classifies unseen images.
